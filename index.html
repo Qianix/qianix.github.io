@@ -1,6 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
+<script>
+window.onload = function() {
+    document.getElementById("audioplayer").play();
+}
+</script>
 <title> Mr Mr. Titty Man </title>
 <style>
   .image{
@@ -27,7 +32,7 @@
 </head>
 <body>
 <img src="mrtman.jpg" alt="Mr Mr. Titty Man" class="image">
-<audio autoplay loop>
+<audio id="audioplayer" loop>
 <source src="wawawewa.mp3" type="audio/mp3"/>
 </audio>
 </body>
