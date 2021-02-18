@@ -1,11 +1,6 @@
 <!DOCTYPE html>
 <html>
 <head>
-<script>
-window.onload = function() {
-    document.getElementById("audioplayer").muted = false;
-}
-</script>
 <title> Mr Mr. Titty Man </title>
 <style>
   .image{
@@ -30,9 +25,9 @@ window.onload = function() {
    }
 </style>
 </head>
-<body>
+<body onmousemove="document.getElementById("audioplayer").play()">
 <img src="mrtman.jpg" alt="Mr Mr. Titty Man" class="image">
-<audio id="audioplayer" autoplay muted loop>
+<audio id="audioplayer" loop>
 <source src="wawawewa.mp3" type="audio/mp3"/>
 </audio>
 </body>
